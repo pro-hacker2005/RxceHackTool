@@ -1,16 +1,16 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 
-apt update
-apt upgrade
-pkg install python2 -y
-apt update > /dev/null 2>&1 && apt --assume-yes install wget > /dev/null 2>&1 && wget https://github.com/MasterDevX/Termux-ADB/raw/master/InstallTools.sh -q && bash InstallTools.sh 
-git clone https://github.com/pro-hacker2005/RxceHackTool
-apt install git php RxcehackTool.py
-git clone https://github.com/htr-tech/zphisher
-cd
-ls
-sh RxcehackTool
+from os import system, name
+import itertools
+import threading
+import time
+import sys
+import datetime
+from base64 import b64decode,b64encode
+from datetime import date
 
-expirydate = datetime.date(2022, 9, 15)
+ = datetime.date(2022, 9, 15)
 #expirydate = datetime.date(2022, 12, 30)
 today=date.today()
 def hero():
